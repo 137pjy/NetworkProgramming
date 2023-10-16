@@ -1,0 +1,1058 @@
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
+package InputStream1;
+
+import java.io.*;
+
+public class FileStreamCopy {
+    public static void main(String[] args) {
+//        if(args.length!=2){
+//            System.out.println("사용법 : java FileView 파일이름1 파일이름2");
+//            exit(0);
+//        }
+
+
+
+        FileInputStream fis=null;
+        FileOutputStream fos=null;
+
+        try {
+
+            fis = new FileInputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello.txt");
+            fos= new FileOutputStream("/Users/jiyeon/IdeaProjects/stream/src/InputStream1/hello2.txt");
+            int readcount=0;
+            byte[] buffer = new byte[512];
+
+            while((readcount=fis.read(buffer))!=-1){
+                fos.write(buffer,0,readcount);
+
+            }
+            System.out.println("복사가 완료되었습니다");
+        } catch (Exception ex) {
+            System.out.println("error");
+            System.out.println(ex);;
+        }finally{
+            try {
+                fis.close();
+            } catch (IOException e) {
+
+            }
+            try {
+                fos.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+}
